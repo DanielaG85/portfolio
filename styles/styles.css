@@ -1,0 +1,72 @@
+
+main{
+    padding: 0 96px;
+}
+
+/*HEADER*/
+navbar {
+    background-color: lightgrey;
+    width: 100%;
+    height: 56px;
+}
+
+.navbar ul{
+    background-color: rgb(233, 230, 230);
+    width: 100%;
+    height: 56px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar  ul li{
+    padding: 16px;
+    margin: 0 8px;
+}
+
+.navbar ul li:hover{
+    box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.2);
+}
+
+.navbar  ul li a{
+    text-decoration: none;
+    color: unset;
+}
+
+/*MAIN*/
+.title{
+    text-align: center;
+}
+
+/*SECTION*/
+
+section:not(.presentacion){
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+/*section presentacion*/
+.presentacion{
+    background-attachment: #f0f0f0;
+    margin-top: 20px;
+    padding: 16px 24px;
+}
+
+/*section formacion*/
+.formacion-academica{
+    max-width: 820px;
+    text-align: left;
+}
+
+.tal{
+    text-align: left important;
+}
+
+/*section intereses*/
+.flex-grid{
+    display: flex;
+}
+
+.flex-grid img{
+    width: 200px;
+}
