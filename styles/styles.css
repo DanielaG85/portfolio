@@ -71,7 +71,6 @@ section:not(.presentacion){
 }
 
 .formacion-academica{
-    max-width: 820px;
     text-align: left;
 }
 
@@ -114,8 +113,8 @@ th{
 }
 
 .flex-grid img{
-    width: 150px;
-    height: 250px;
+    width: 200px;
+    height: 300px;
     object-fit: cover;
 }
 
