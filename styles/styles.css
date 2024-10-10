@@ -1,7 +1,7 @@
 *{
     font-family: "Sofia Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400; /* Aquí se ajusta correctamente */
+    font-weight: 400; 
     font-style: normal;
 }
 
@@ -65,7 +65,7 @@ section:not(.presentacion){
 }
 
 .presentacion{
-    background-color: rgba(194, 176, 201, 0.4); /* Cambié aquí para corregir la sintaxis */
+    background-color: rgba(194, 176, 201, 0.4); 
     margin-top: 20px;
     padding: 16px 24px;
 }
@@ -96,7 +96,7 @@ section:not(.presentacion){
 }
 
 td{
-    background-color: rgba(194, 176, 201, 0.3); /* Ajusté aquí para rgba */
+    background-color: rgba(194, 176, 201, 0.3); 
     padding: 10px 4px; 
     border: 1px solid #9656A1;
 }
