@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 main{
     padding: 0 96px;
 }
@@ -50,6 +54,8 @@ nav.navbar {
     color: black;
 }
 
+
+
 /*MAIN*/
 .title{
     text-align: center;
@@ -63,6 +69,7 @@ section:not(.presentacion){
     margin-top: 30px;   
     padding: 16px;
 }
+
 
 .presentacion{
     background-color: rgba(194, 176, 201, 0.4); 
@@ -170,3 +177,89 @@ footer {
 }
 
 /*RESPONSIVIDAD*/
+
+/* Pantallas grandes */
+@media only screen and (min-width: 1200px) {
+    main {
+        padding: 0 150px;
+    }
+
+    .navbar ul {
+        height: 64px;
+    }
+
+    .navbar ul li {
+        padding: 20px;
+    }
+
+    .tabla th, .tabla td {
+        padding: 15px 10px;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    main {
+        padding: 0 50px;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .navbar ul li {
+        padding: 12px;
+        margin: 0 6px;
+    }
+
+    section {
+        margin-top: 20px;
+        padding: 12px;
+    }
+
+    .tabla th, .tabla td {
+        padding: 8px 5px;
+    }
+}
+
+/* Móviles */
+@media only screen and (max-width: 767px) {
+    main {
+        padding: 0 20px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar ul li {
+        margin: 0 0 8px 0;
+        text-align: center;
+    }
+
+    .flex-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-grid img {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        margin-top: 15px;
+        padding: 8px;
+    }
+
+    .tabla th, .tabla td {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .contacto-form input {
+        width: 100%;
+    }
+}
