@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <script type="text/javascript" src="./scripts/script.js"></script>
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
   </style>
@@ -23,7 +24,7 @@
   </header>
 
   <main>
-    <h1 class="titulo">Bienvenidos a mi Portfolio</h1>
+    <h1 class="titulo">Bienvenidos a mi <span id="typed">PORTFOLIO</span></h1>
 
   
     <section class="presentacion">
@@ -121,5 +122,14 @@
       <img src="./assets/images/github.png">
     </a>
   </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed ('#typed', {
+      strings: ["PORTFOLIO", "CURRICULUM", "MI SITIO", "TARJETA DE PRESENTACION"],
+      typeSpeed: 75,
+      startDelay: 35,
+
+    });
+  </script>
 </body>
 </html>
