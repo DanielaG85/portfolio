@@ -3,6 +3,7 @@
     font-optical-sizing: auto;
     font-weight: 400; 
     font-style: normal;
+    margin: 0;
 }
 
 html{
@@ -82,7 +83,7 @@ section:not(.presentacion){
 }
 
 .lista-formaciones{
-    color:  #9656A1;
+    color:  rgb(150, 86, 161);
 }
 
 .tal{
